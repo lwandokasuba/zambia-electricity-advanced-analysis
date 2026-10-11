@@ -1,0 +1,791 @@
+{
+ "corr": {
+  "pooled": {
+   "access": {
+    "access": 1.0,
+    "gdp_pc": 0.837,
+    "urban": 0.818,
+    "life_exp": 0.45,
+    "renewables": -0.785,
+    "population": 0.065
+   },
+   "gdp_pc": {
+    "access": 0.837,
+    "gdp_pc": 1.0,
+    "urban": 0.849,
+    "life_exp": 0.398,
+    "renewables": -0.813,
+    "population": -0.098
+   },
+   "urban": {
+    "access": 0.818,
+    "gdp_pc": 0.849,
+    "urban": 1.0,
+    "life_exp": 0.31,
+    "renewables": -0.714,
+    "population": -0.024
+   },
+   "life_exp": {
+    "access": 0.45,
+    "gdp_pc": 0.398,
+    "urban": 0.31,
+    "life_exp": 1.0,
+    "renewables": -0.279,
+    "population": 0.368
+   },
+   "renewables": {
+    "access": -0.785,
+    "gdp_pc": -0.813,
+    "urban": -0.714,
+    "life_exp": -0.279,
+    "renewables": 1.0,
+    "population": 0.098
+   },
+   "population": {
+    "access": 0.065,
+    "gdp_pc": -0.098,
+    "urban": -0.024,
+    "life_exp": 0.368,
+    "renewables": 0.098,
+    "population": 1.0
+   }
+  },
+  "between": {
+   "access": {
+    "access": 1.0,
+    "gdp_pc": 0.967,
+    "urban": 0.883,
+    "life_exp": 0.217,
+    "renewables": -0.733,
+    "population": -0.2
+   },
+   "gdp_pc": {
+    "access": 0.967,
+    "gdp_pc": 1.0,
+    "urban": 0.95,
+    "life_exp": 0.25,
+    "renewables": -0.75,
+    "population": -0.267
+   },
+   "urban": {
+    "access": 0.883,
+    "gdp_pc": 0.95,
+    "urban": 1.0,
+    "life_exp": 0.15,
+    "renewables": -0.7,
+    "population": -0.2
+   },
+   "life_exp": {
+    "access": 0.217,
+    "gdp_pc": 0.25,
+    "urban": 0.15,
+    "life_exp": 1.0,
+    "renewables": -0.383,
+    "population": 0.35
+   },
+   "renewables": {
+    "access": -0.733,
+    "gdp_pc": -0.75,
+    "urban": -0.7,
+    "life_exp": -0.383,
+    "renewables": 1.0,
+    "population": 0.083
+   },
+   "population": {
+    "access": -0.2,
+    "gdp_pc": -0.267,
+    "urban": -0.2,
+    "life_exp": 0.35,
+    "renewables": 0.083,
+    "population": 1.0
+   }
+  },
+  "within": {
+   "access": {
+    "access": 1.0,
+    "gdp_pc": 0.598,
+    "urban": 0.913,
+    "life_exp": 0.854,
+    "renewables": -0.699,
+    "population": 0.812
+   },
+   "gdp_pc": {
+    "access": 0.598,
+    "gdp_pc": 1.0,
+    "urban": 0.613,
+    "life_exp": 0.655,
+    "renewables": -0.513,
+    "population": 0.518
+   },
+   "urban": {
+    "access": 0.913,
+    "gdp_pc": 0.613,
+    "urban": 1.0,
+    "life_exp": 0.863,
+    "renewables": -0.7,
+    "population": 0.814
+   },
+   "life_exp": {
+    "access": 0.854,
+    "gdp_pc": 0.655,
+    "urban": 0.863,
+    "life_exp": 1.0,
+    "renewables": -0.63,
+    "population": 0.843
+   },
+   "renewables": {
+    "access": -0.699,
+    "gdp_pc": -0.513,
+    "urban": -0.7,
+    "life_exp": -0.63,
+    "renewables": 1.0,
+    "population": -0.699
+   },
+   "population": {
+    "access": 0.812,
+    "gdp_pc": 0.518,
+    "urban": 0.814,
+    "life_exp": 0.843,
+    "renewables": -0.699,
+    "population": 1.0
+   }
+  },
+  "changes": {
+   "access": {
+    "access": 1.0,
+    "gdp_pc": 0.055,
+    "urban": 0.113,
+    "life_exp": -0.108,
+    "renewables": -0.033,
+    "population": 0.175
+   },
+   "gdp_pc": {
+    "access": 0.055,
+    "gdp_pc": 1.0,
+    "urban": 0.159,
+    "life_exp": 0.118,
+    "renewables": -0.092,
+    "population": -0.25
+   },
+   "urban": {
+    "access": 0.113,
+    "gdp_pc": 0.159,
+    "urban": 1.0,
+    "life_exp": -0.176,
+    "renewables": -0.152,
+    "population": -0.095
+   },
+   "life_exp": {
+    "access": -0.108,
+    "gdp_pc": 0.118,
+    "urban": -0.176,
+    "life_exp": 1.0,
+    "renewables": 0.034,
+    "population": -0.222
+   },
+   "renewables": {
+    "access": -0.033,
+    "gdp_pc": -0.092,
+    "urban": -0.152,
+    "life_exp": 0.034,
+    "renewables": 1.0,
+    "population": -0.015
+   },
+   "population": {
+    "access": 0.175,
+    "gdp_pc": -0.25,
+    "urban": -0.095,
+    "life_exp": -0.222,
+    "renewables": -0.015,
+    "population": 1.0
+   }
+  }
+ },
+ "temporal": [
+  {
+   "iso3": "BWA",
+   "country": "Botswana",
+   "access_2000": 26.5,
+   "access_2024": 80.2,
+   "trend_pp_per_year": 2.336,
+   "trend_r2": 0.989,
+   "break_year": 2015,
+   "slope_before": 2.579,
+   "slope_after": 1.828,
+   "break_sse_reduction": 0.472,
+   "yoy_sd": 2.037,
+   "n_drops_gt3": 0
+  },
+  {
+   "iso3": "TZA",
+   "country": "Tanzania",
+   "access_2000": 8.7,
+   "access_2024": 52.4,
+   "trend_pp_per_year": 1.793,
+   "trend_r2": 0.878,
+   "break_year": 2011,
+   "slope_before": 0.377,
+   "slope_after": 2.905,
+   "break_sse_reduction": 0.885,
+   "yoy_sd": 2.365,
+   "n_drops_gt3": 1
+  },
+  {
+   "iso3": "ZMB",
+   "country": "Zambia",
+   "access_2000": 16.7,
+   "access_2024": 53.6,
+   "trend_pp_per_year": 1.496,
+   "trend_r2": 0.923,
+   "break_year": 2014,
+   "slope_before": 0.944,
+   "slope_after": 2.392,
+   "break_sse_reduction": 0.654,
+   "yoy_sd": 3.055,
+   "n_drops_gt3": 2
+  },
+  {
+   "iso3": "MOZ",
+   "country": "Mozambique",
+   "access_2000": 6.1,
+   "access_2024": 36.9,
+   "trend_pp_per_year": 1.312,
+   "trend_r2": 0.985,
+   "break_year": 2007,
+   "slope_before": 1.155,
+   "slope_after": 1.355,
+   "break_sse_reduction": 0.055,
+   "yoy_sd": 1.827,
+   "n_drops_gt3": 0
+  },
+  {
+   "iso3": "AGO",
+   "country": "Angola",
+   "access_2000": 24.2,
+   "access_2024": 55.5,
+   "trend_pp_per_year": 1.185,
+   "trend_r2": 0.914,
+   "break_year": 2014,
+   "slope_before": 1.041,
+   "slope_after": 1.419,
+   "break_sse_reduction": 0.063,
+   "yoy_sd": 3.494,
+   "n_drops_gt3": 3
+  },
+  {
+   "iso3": "NAM",
+   "country": "Namibia",
+   "access_2000": 36.5,
+   "access_2024": 59.3,
+   "trend_pp_per_year": 0.95,
+   "trend_r2": 0.976,
+   "break_year": 2011,
+   "slope_before": 0.869,
+   "slope_after": 1.014,
+   "break_sse_reduction": 0.058,
+   "yoy_sd": 1.627,
+   "n_drops_gt3": 0
+  },
+  {
+   "iso3": "ZWE",
+   "country": "Zimbabwe",
+   "access_2000": 33.7,
+   "access_2024": 62.0,
+   "trend_pp_per_year": 0.926,
+   "trend_r2": 0.676,
+   "break_year": 2015,
+   "slope_before": 0.239,
+   "slope_after": 2.366,
+   "break_sse_reduction": 0.577,
+   "yoy_sd": 4.349,
+   "n_drops_gt3": 4
+  },
+  {
+   "iso3": "ZAF",
+   "country": "South Africa",
+   "access_2000": 72.4,
+   "access_2024": 90.2,
+   "trend_pp_per_year": 0.587,
+   "trend_r2": 0.8,
+   "break_year": 2005,
+   "slope_before": 1.948,
+   "slope_after": 0.396,
+   "break_sse_reduction": 0.565,
+   "yoy_sd": 1.992,
+   "n_drops_gt3": 0
+  },
+  {
+   "iso3": "MWI",
+   "country": "Malawi",
+   "access_2000": 4.8,
+   "access_2024": 15.6,
+   "trend_pp_per_year": 0.469,
+   "trend_r2": 0.82,
+   "break_year": 2006,
+   "slope_before": 0.135,
+   "slope_after": 0.536,
+   "break_sse_reduction": 0.095,
+   "yoy_sd": 2.282,
+   "n_drops_gt3": 1
+  }
+ ],
+ "anomalies": [
+  {
+   "country": "Angola",
+   "year": 2001,
+   "access": 20.0,
+   "expected": 25.26,
+   "residual": -5.26,
+   "robust_z": -3.73
+  },
+  {
+   "country": "Angola",
+   "year": 2007,
+   "access": 37.5,
+   "expected": 33.05,
+   "residual": 4.45,
+   "robust_z": 3.16
+  },
+  {
+   "country": "Angola",
+   "year": 2008,
+   "access": 38.5,
+   "expected": 34.2,
+   "residual": 4.3,
+   "robust_z": 3.05
+  },
+  {
+   "country": "Angola",
+   "year": 2014,
+   "access": 32.0,
+   "expected": 39.88,
+   "residual": -7.88,
+   "robust_z": -5.59
+  },
+  {
+   "country": "Botswana",
+   "year": 2009,
+   "access": 43.4,
+   "expected": 47.9,
+   "residual": -4.5,
+   "robust_z": -3.19
+  },
+  {
+   "country": "Malawi",
+   "year": 2018,
+   "access": 18.0,
+   "expected": 11.6,
+   "residual": 6.4,
+   "robust_z": 4.54
+  },
+  {
+   "country": "South Africa",
+   "year": 2001,
+   "access": 70.2,
+   "expected": 74.54,
+   "residual": -4.34,
+   "robust_z": -3.08
+  },
+  {
+   "country": "Zambia",
+   "year": 2007,
+   "access": 18.5,
+   "expected": 24.93,
+   "residual": -6.43,
+   "robust_z": -4.56
+  },
+  {
+   "country": "Zambia",
+   "year": 2010,
+   "access": 22.0,
+   "expected": 27.45,
+   "residual": -5.45,
+   "robust_z": -3.87
+  },
+  {
+   "country": "Zimbabwe",
+   "year": 2009,
+   "access": 43.4,
+   "expected": 37.67,
+   "residual": 5.73,
+   "robust_z": 4.06
+  },
+  {
+   "country": "Zimbabwe",
+   "year": 2011,
+   "access": 36.9,
+   "expected": 41.72,
+   "residual": -4.82,
+   "robust_z": -3.43
+  },
+  {
+   "country": "Zimbabwe",
+   "year": 2012,
+   "access": 44.0,
+   "expected": 37.18,
+   "residual": 6.82,
+   "robust_z": 4.85
+  },
+  {
+   "country": "Zimbabwe",
+   "year": 2014,
+   "access": 32.3,
+   "expected": 40.2,
+   "residual": -7.9,
+   "robust_z": -5.61
+  },
+  {
+   "country": "Zimbabwe",
+   "year": 2015,
+   "access": 33.7,
+   "expected": 39.85,
+   "residual": -6.15,
+   "robust_z": -4.37
+  },
+  {
+   "country": "Zimbabwe",
+   "year": 2020,
+   "access": 52.7,
+   "expected": 47.8,
+   "residual": 4.9,
+   "robust_z": 3.48
+  },
+  {
+   "country": "Zimbabwe",
+   "year": 2022,
+   "access": 50.1,
+   "expected": 56.43,
+   "residual": -6.33,
+   "robust_z": -4.49
+  },
+  {
+   "country": "Zimbabwe",
+   "year": 2023,
+   "access": 62.0,
+   "expected": 56.74,
+   "residual": 5.26,
+   "robust_z": 3.73
+  }
+ ],
+ "rates_vs_counts": [
+  {
+   "iso3": "TZA",
+   "country": "Tanzania",
+   "access": 52.4,
+   "pop_without_m": 32.635,
+   "population": 68560157,
+   "rank_by_rate_deficit": 3,
+   "rank_by_count": 1,
+   "share_of_region_deficit": 0.287
+  },
+  {
+   "iso3": "MOZ",
+   "country": "Mozambique",
+   "access": 36.9,
+   "pop_without_m": 21.853,
+   "population": 34631766,
+   "rank_by_rate_deficit": 2,
+   "rank_by_count": 2,
+   "share_of_region_deficit": 0.192
+  },
+  {
+   "iso3": "MWI",
+   "country": "Malawi",
+   "access": 15.6,
+   "pop_without_m": 18.277,
+   "population": 21655286,
+   "rank_by_rate_deficit": 1,
+   "rank_by_count": 3,
+   "share_of_region_deficit": 0.161
+  },
+  {
+   "iso3": "AGO",
+   "country": "Angola",
+   "access": 55.5,
+   "pop_without_m": 16.859,
+   "population": 37885849,
+   "rank_by_rate_deficit": 5,
+   "rank_by_count": 4,
+   "share_of_region_deficit": 0.148
+  },
+  {
+   "iso3": "ZMB",
+   "country": "Zambia",
+   "access": 53.6,
+   "pop_without_m": 9.89,
+   "population": 21314956,
+   "rank_by_rate_deficit": 4,
+   "rank_by_count": 5,
+   "share_of_region_deficit": 0.087
+  },
+  {
+   "iso3": "ZWE",
+   "country": "Zimbabwe",
+   "access": 62.0,
+   "pop_without_m": 6.321,
+   "population": 16634373,
+   "rank_by_rate_deficit": 7,
+   "rank_by_count": 6,
+   "share_of_region_deficit": 0.056
+  },
+  {
+   "iso3": "ZAF",
+   "country": "South Africa",
+   "access": 90.2,
+   "pop_without_m": 6.273,
+   "population": 64007187,
+   "rank_by_rate_deficit": 9,
+   "rank_by_count": 7,
+   "share_of_region_deficit": 0.055
+  },
+  {
+   "iso3": "NAM",
+   "country": "Namibia",
+   "access": 59.3,
+   "pop_without_m": 1.233,
+   "population": 3030131,
+   "rank_by_rate_deficit": 6,
+   "rank_by_count": 8,
+   "share_of_region_deficit": 0.011
+  },
+  {
+   "iso3": "BWA",
+   "country": "Botswana",
+   "access": 80.2,
+   "pop_without_m": 0.499,
+   "population": 2521139,
+   "rank_by_rate_deficit": 8,
+   "rank_by_count": 9,
+   "share_of_region_deficit": 0.004
+  }
+ ],
+ "region_without": {
+  "2000": 102.98,
+  "2001": 106.42,
+  "2002": 104.01,
+  "2003": 104.8,
+  "2004": 105.3,
+  "2005": 106.1,
+  "2006": 108.1,
+  "2007": 108.68,
+  "2008": 111.95,
+  "2009": 114.45,
+  "2010": 115.67,
+  "2011": 118.14,
+  "2012": 118.0,
+  "2013": 120.35,
+  "2014": 122.0,
+  "2015": 121.31,
+  "2016": 119.52,
+  "2017": 121.75,
+  "2018": 119.58,
+  "2019": 121.95,
+  "2020": 118.95,
+  "2021": 119.79,
+  "2022": 121.74,
+  "2023": 117.75,
+  "2024": 113.84
+ },
+ "zambia_smoothed": [
+  {
+   "year": 2000,
+   "access": 16.7,
+   "ma3": NaN,
+   "ma5": NaN
+  },
+  {
+   "year": 2001,
+   "access": 20.2,
+   "ma3": NaN,
+   "ma5": NaN
+  },
+  {
+   "year": 2002,
+   "access": 17.4,
+   "ma3": 18.1,
+   "ma5": NaN
+  },
+  {
+   "year": 2003,
+   "access": 18.5,
+   "ma3": 18.7,
+   "ma5": NaN
+  },
+  {
+   "year": 2004,
+   "access": 20.3,
+   "ma3": 18.73,
+   "ma5": 18.62
+  },
+  {
+   "year": 2005,
+   "access": 23.3,
+   "ma3": 20.7,
+   "ma5": 19.94
+  },
+  {
+   "year": 2006,
+   "access": 24.1,
+   "ma3": 22.57,
+   "ma5": 20.72
+  },
+  {
+   "year": 2007,
+   "access": 18.5,
+   "ma3": 21.97,
+   "ma5": 20.94
+  },
+  {
+   "year": 2008,
+   "access": 25.7,
+   "ma3": 22.77,
+   "ma5": 22.38
+  },
+  {
+   "year": 2009,
+   "access": 26.6,
+   "ma3": 23.6,
+   "ma5": 23.64
+  },
+  {
+   "year": 2010,
+   "access": 22.0,
+   "ma3": 24.77,
+   "ma5": 23.38
+  },
+  {
+   "year": 2011,
+   "access": 28.3,
+   "ma3": 25.63,
+   "ma5": 24.22
+  },
+  {
+   "year": 2012,
+   "access": 29.2,
+   "ma3": 26.5,
+   "ma5": 26.36
+  },
+  {
+   "year": 2013,
+   "access": 30.1,
+   "ma3": 29.2,
+   "ma5": 27.24
+  },
+  {
+   "year": 2014,
+   "access": 27.9,
+   "ma3": 29.07,
+   "ma5": 27.5
+  },
+  {
+   "year": 2015,
+   "access": 31.1,
+   "ma3": 29.7,
+   "ma5": 29.32
+  },
+  {
+   "year": 2016,
+   "access": 35.4,
+   "ma3": 31.47,
+   "ma5": 30.74
+  },
+  {
+   "year": 2017,
+   "access": 40.3,
+   "ma3": 35.6,
+   "ma5": 32.96
+  },
+  {
+   "year": 2018,
+   "access": 40.2,
+   "ma3": 38.63,
+   "ma5": 34.98
+  },
+  {
+   "year": 2019,
+   "access": 43.0,
+   "ma3": 41.17,
+   "ma5": 38.0
+  },
+  {
+   "year": 2020,
+   "access": 44.6,
+   "ma3": 42.6,
+   "ma5": 40.7
+  },
+  {
+   "year": 2021,
+   "access": 46.7,
+   "ma3": 44.77,
+   "ma5": 42.96
+  },
+  {
+   "year": 2022,
+   "access": 47.8,
+   "ma3": 46.37,
+   "ma5": 44.46
+  },
+  {
+   "year": 2023,
+   "access": 51.1,
+   "ma3": 48.53,
+   "ma5": 46.64
+  },
+  {
+   "year": 2024,
+   "access": 53.6,
+   "ma3": 50.83,
+   "ma5": 48.76
+  }
+ ],
+ "findings": [
+  {
+   "#": "F1",
+   "Evidence": "Fig. 1",
+   "Observation": "Access correlates with log GDP at \u03c1 = 0.97 between countries, 0.60 within countries and 0.06 for year-to-year changes.",
+   "Interpretation": "Wealth and electrification are linked through long-run structural differences between countries, not short-run growth; a GDP boom year should not be expected to raise access. Shared time trends inflate within-country correlations."
+  },
+  {
+   "#": "F2",
+   "Evidence": "Fig. 1, 3",
+   "Observation": "The renewables share is negatively associated with access (\u03c1 = -0.78 pooled); South Africa has the lowest share (10%) and the highest access.",
+   "Interpretation": "WDI's renewable share includes traditional biomass, so a high share mainly signals reliance on firewood and charcoal in poorer, rural countries, not clean electricity. It should not be read as 'renewables reduce access'."
+  },
+  {
+   "#": "F3",
+   "Evidence": "Fig. 2",
+   "Observation": "Urbanisation and access rise together (\u03c1 = 0.88 between countries); the most urban countries have the highest access in both 2000 and 2024.",
+   "Interpretation": "Density lowers the cost per grid connection, which is consistent with the pattern, but urban measurement bias (surveys reach towns more easily) and wealth could explain part of it."
+  },
+  {
+   "#": "F4",
+   "Evidence": "Fig. 5",
+   "Observation": "Tanzania (break 2011: 0.4 \u2192 2.9 pp/yr), Zambia (2014: 0.9 \u2192 2.4) and Zimbabwe (2015: 0.2 \u2192 2.4) show structural acceleration; South Africa decelerated after 2005 (1.9 \u2192 0.4).",
+   "Interpretation": "The timing coincides with the spread of off-grid solar and rural-electrification programmes in the 2010s, but the data contain no programme variables; methodological changes in the access estimates could also produce a kink. South Africa's slowdown is consistent with approaching saturation."
+  },
+  {
+   "#": "F5",
+   "Evidence": "Fig. 4",
+   "Observation": "Smoothing Zambia's series turns 2007 (raw 18.5%) into 22.0% (k=3) and 20.9% (k=5), and in 2024 the MA(5) (48.8%) trails the raw value (53.6%) by 4.8 points.",
+   "Interpretation": "Moving averages are useful for trend communication but understate progress during acceleration and hide data-quality problems; reports should show raw and smoothed series together."
+  },
+  {
+   "#": "F6",
+   "Evidence": "Fig. 6",
+   "Observation": "17 country-years are anomalous (|robust z| > 3); 8 are Zimbabwe, and most occur as drop-then-recovery pairs (e.g. Zimbabwe 2014\u201315, Malawi 2018\u201319).",
+   "Interpretation": "Real one-year losses of 5\u20138 points of national access followed by recovery are implausible; the pattern is more consistent with survey-based re-estimation. Zimbabwe's economic crises could contribute but cannot be separated from measurement noise here."
+  },
+  {
+   "#": "F7",
+   "Evidence": "Fig. 7, 8, 9",
+   "Observation": "Tanzania holds 29% of the region's people without electricity (32.6 M) at a mid-table rate; Malawi is worst by rate but 3rd by count; South Africa at 90% still has 6.3 M without power.",
+   "Interpretation": "Rate and count rankings answer different questions: rates for judging performance, counts for sizing investment by people reached. Choosing one map alone would misdirect either evaluation or targeting."
+  },
+  {
+   "#": "F8",
+   "Evidence": "Fig. 10",
+   "Observation": "The nine-country total of people without electricity rose from 103 M (2000) to a peak of 122 M (2014) and was 114 M in 2024, although every country's access rate rose.",
+   "Interpretation": "Population growth absorbed connection gains for the first half of the period; universal-access progress measured in percentages overstates progress measured in people."
+  }
+ ]
+}
