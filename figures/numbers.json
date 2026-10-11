@@ -590,26 +590,26 @@
   {
    "year": 2000,
    "access": 16.7,
-   "ma3": NaN,
-   "ma5": NaN
+   "ma3": null,
+   "ma5": null
   },
   {
    "year": 2001,
    "access": 20.2,
-   "ma3": NaN,
-   "ma5": NaN
+   "ma3": null,
+   "ma5": null
   },
   {
    "year": 2002,
    "access": 17.4,
    "ma3": 18.1,
-   "ma5": NaN
+   "ma5": null
   },
   {
    "year": 2003,
    "access": 18.5,
    "ma3": 18.7,
-   "ma5": NaN
+   "ma5": null
   },
   {
    "year": 2004,
